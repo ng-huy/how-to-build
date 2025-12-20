@@ -22,6 +22,8 @@ Change.txt
 - Note: if Change.txt is emptied or left unchanged, change log processing will skip the current build version.
 The app needs to process assets and the manifest to retrieve this information (before or after build) to display if necessary.
 To release a bundle, it is recommended to copy the available content from release.xml to help users better understand the app changes.
+Note:
+Starting with build script 3.6, the changelog must be declared before upgrading the version to ensure synchronization; alternatively, it can be omitted if you do not wish to provide one.
 ```
 
 push.ps1
