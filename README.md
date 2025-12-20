@@ -30,5 +30,5 @@ push.ps1
 ```text
 Most commits do not need or do not want to publish changes; push.ps1 is used for quick code backup or to quickly push to CI.
 Change.txt provides major changes; changes made during commits may not be necessary.
-Use /c "start pwsh ./push.ps1" for a physical key (F12) or for the IDE toolbar.
+Use cmd.exe /c "start pwsh ./push.ps1" for a physical key (F12) or for the IDE toolbar.
 ```
