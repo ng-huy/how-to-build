@@ -28,7 +28,7 @@ push.ps1
 ```
 Phần lớn các commit không cần hoặc không muốn công bố thay đổi, push.ps1 phục vụ việc sao lưu code nhanh hoặc đẩy nhanh cho CI
 Change.txt cung cấp thay dổi lớn, các thay đổi trong quá trình commit có thể không cần thiết.
-sử dụng  /c "start pwsh ./push.ps1" cho phím vật lý (F12) hoặc cho toolbar của IDE
+sử dụng cmd.exe /c "start pwsh ./push.ps1" cho phím vật lý (F12) hoặc cho toolbar của IDE
 ```
 
 
