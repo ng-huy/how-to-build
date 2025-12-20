@@ -21,6 +21,9 @@ Change.txt
 Ứng dụng cần xử lý assets và manifest để lấy các thông tin (trước hoặc sau build) để hiển thị nếu cần.
 Để phát hành bundle, khuyến cáo copy nội dung có sẵn từ release.xml để giúp người dùng hiểu rõ hơn thay đổi của ứng dụng
 ```
+```
+Thay đổi từ build script 3.6, changelog phải khai báo trước khi muốn nâng cấp phiên bản, để đảm bảo tính đồng bộ, hoặc có thể bỏ qua nếu không muốn cung cấp
+```
 push.ps1
 ```
 Phần lớn các commit không cần hoặc không muốn công bố thay đổi, push.ps1 phục vụ việc sao lưu code nhanh hoặc đẩy nhanh cho CI
